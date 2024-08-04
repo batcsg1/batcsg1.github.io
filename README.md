@@ -7,3 +7,6 @@ AlphaDev v1.0
 - 6 HTML files exist
 - 1 CSS File
 - 1 JS File
+
+The Batchelor Monkey Puzzle Website and its associated files, are trademarks belonging to Samuel Batchelor. All rights reserved.
+Distributed by GitHub and Visual Studio Code

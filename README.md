@@ -10,3 +10,4 @@ AlphaDev v1.0
 
 The Batchelor Monkey Puzzle Website and its associated files, are trademarks belonging to Samuel Batchelor. All rights reserved.
 Distributed by GitHub and Visual Studio Code
+@2024 Samuel Batchelor

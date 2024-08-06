@@ -33,5 +33,5 @@ AlphaDev v1.0.1 - 6th August 2024
     Paragraphs: Segoue UI
 
 The Batchelor Monkey Puzzle Website and its associated files, are trademarks belonging to Samuel Batchelor. All rights reserved.
-Distributed by GitHub and Visual Studio Code
+Distributed by GitHub Pages and Produced by Visual Studio Code
 @2024 Samuel Batchelor

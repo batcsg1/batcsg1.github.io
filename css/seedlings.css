@@ -1,0 +1,27 @@
+/*seedlings.css - Cascading Style Sheets File for seedlings.html
+Created 6th August 2024 */
+body{
+    background: rgb(94,249,5);
+    background: linear-gradient(0deg, rgb(69, 181, 4) 26%, rgba(227,226,2,1) 46%, rgba(231,138,5,1) 71%, rgba(233,24,24,1) 87%);  
+}
+#main-header{
+    color: rgb(230, 252, 185);
+    font-size: 50px;
+    text-align: center;
+    text-shadow: rgb(255, 191, 0) 1px 0 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    }
+    #about-header{
+    color: aliceblue;
+    font-size: 23px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 3px rgb(18, 15, 3);
+    }
+    #txt-1{
+    color: white;
+    font-size: 18px;
+    font-family:Segoe UI;
+    font-weight:500;
+    text-shadow: 1px 1px 3px rgb(18, 15, 3);
+    }

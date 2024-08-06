@@ -1,0 +1,71 @@
+/*main.css - Cascading Style Sheets File for index.html
+Created 6th August 2024 */
+body{
+background: rgb(10, 180, 24);
+background: linear-gradient(90deg, rgb(64, 152, 253) 0%, rgb(24, 223, 113) 35%, rgb(170, 255, 0) 100%);
+}
+#main-header{
+color: rgb(230, 252, 185);
+font-size: 50px;
+text-align: center;
+text-shadow: rgb(255, 191, 0) 1px 0 10px;
+font-family:'Courier New', Courier, monospace;
+font-weight: bolder;
+}
+#about-header{
+color: aliceblue;
+font-size: 23px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-shadow: 1px 1px 3px rgb(18, 15, 3);
+}
+#txt-1{
+color: white;
+font-size: 18px;
+font-family:Segoe UI;
+font-weight:500;
+text-shadow: 1px 1px 3px rgb(18, 15, 3);
+}
+/*Headers and text ↑ */
+/*Nav menu stuff ↓ */
+.nav-class{
+    background-color: rgb(255, 253, 112);
+    background: linear-gradient(0deg, rgba(237,249,5,1) 14%, rgba(207,210,6,1) 41%, rgba(231,138,5,1) 69%, rgba(233,24,24,1) 100%);
+    padding: 3px;   
+    text-align: center;  
+}
+.contents {
+    position: relative;
+    display: inline-block;
+}
+.dropbtn-1 {
+    display: inline-block;
+    background-color:rgb(196, 4, 4);
+    padding: 10px;    
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: bold; 
+    color:azure; 
+  }
+.dropdown-content-1{
+    display: none;
+    position: absolute;
+    top: 26px;
+    background-color: #f1f1f1;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+.dropdown-content-1 a{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+.contents:hover .dropdown-content-1{
+    display: block;
+}
+.about-me{
+    text-decoration: none;
+    font-weight: bold; 
+    color:azure; 
+}

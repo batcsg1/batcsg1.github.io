@@ -23,7 +23,7 @@ Batchelor Monkey Puzzle Website will be linked to main.css
 - For the Chingford Park page, the four images below the first paragraph,
   will be surrounded by a light-yellow background with a black-greenish border.
   And at the bottom there will be text describing the images.
-- Removed most of the <hr> line breaks and line breaks will now be placed above the
+- Removed most of the hr line breaks and line breaks will now be placed above the
   Copyright banner at the bottom of each page
     - Except on the main page, there is a line break just below the white nav menu,
     that contains the "Contents", "About Me" and "Extras" buttons.

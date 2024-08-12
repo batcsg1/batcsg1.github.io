@@ -3,6 +3,9 @@ Created 6th August 2024 */
 body{
     background: linear-gradient(0deg, #d1ffbd 0%, #ffffff 100%);
     border: 4px ridge #a4e481;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .header-background{
     background-color: black;

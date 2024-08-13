@@ -3,7 +3,7 @@ Created 6th August 2024 */
 body{
     background: linear-gradient(0deg, #d1ffbd 0%, #ffffff 100%);
     border: 4px ridge #a4e481;
-    width: 800px;
+    width: 53em;
     margin-left: auto;
     margin-right: auto;
 }
@@ -28,13 +28,16 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 text-decoration: dashed;
 }
 #about-header{
-    color: rgb(244, 247, 250);
+    color: rgb(0, 6, 12);
     font-size: 23px;
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: dashed;
-    background-color: #060804;
-    padding-block: 30px;
+    background-color: #8ff709;
+    padding-block: 10px;
+    margin-inline: 12em; 
+    border: 5px ridge #a4e481;
+    font-style: italic;
 }
 #txt-1{
     color: rgb(9, 0, 0);
@@ -45,7 +48,8 @@ text-decoration: dashed;
     background-color: white;
     border: 4px ridge #060804;
     padding-block: 10px;
-    padding-inline: 10px;
+    padding-inline: 20px;
+    margin-inline: 3em;
 }
 #txt-2{
     color: rgb(9, 0, 0);
@@ -85,7 +89,7 @@ p#txt-1 img{
 }
 /*Nav menu stuff ↓ - - - - */
 .nav-class{
-    background-color: white;
+    background-color: rgb(239, 248, 114);
     padding: 10px;   
     text-align: center;  
 }
@@ -102,6 +106,7 @@ p#txt-1 img{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder; 
     color:azure; 
+    font-size: 1em;
   }
 /*Dropdown content background*/
 .dropdown-content-1{

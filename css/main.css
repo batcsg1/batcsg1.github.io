@@ -164,3 +164,25 @@ p#txt-1 img{
     font-weight: bolder;
     font-size: 20px;
 }
+/*Tables*/
+#table-1{
+    background-color: rgb(3, 71, 18);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 600px;
+    padding: 10px;
+}
+#table-1, th, td{
+    border: 2px solid;
+    padding-inline: 10px;
+    border-radius: 5px;
+    font-size: 20px;  
+}
+#table-1 th{
+    background-color: yellow;
+    text-align: left;
+}
+#table-1 td{
+    background-color: white;
+}

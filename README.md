@@ -2,7 +2,7 @@
 This website documents the fascinating journey of a dozen little Monkey Puzzle
 seeds collected from a local New Zealand park, as they progress into seedlings. 
 
-AlphaDev v1.0.7 - 15th August 2024
+AlphaDev v1.0.7 - Frutiger Aero Update - 15th August 2024
 - All images across the website (except the image on the about me) have hyperlinks, so they can now be viewed upclose.
 - Every page has had the background changed from a light green to white gradient to a light blue to white gradient
 - The nav menu on the main page, has had its background color changed from pale yellow to a light green to white gradient.

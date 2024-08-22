@@ -1,14 +1,16 @@
 /*main.css - Cascading Style Sheets File for index.html
 Created 6th August 2024 */
 body{
-    background-image: linear-gradient(to bottom, #f1f2f4, #e4ebf4, #d4e5f3, #c2dff2, #addaee);
-    border: 4px ridge #a698f7;
+    background-image: linear-gradient(to bottom, #ffffff, #e8eef6, #d1ebda, #8bfcb1);
+    border: 4px ridge #0cd70f;
     width: 53em;
     margin-left: auto;
     margin-right: auto;
 }
+/*Main Header*/
 .header-background{
-    background: linear-gradient(180deg, rgba(218,226,241,1) 0%, rgba(114,122,134,1) 5%, rgba(71,79,89,1) 10%, rgba(50,57,67,1) 15%, rgba(39,46,56,1) 20%, rgba(0,0,0,1) 100%);
+    background: rgb(230,242,227);
+    background: linear-gradient(90deg, rgba(230,242,227,1) 8%, rgba(30,168,3,1) 38%, rgba(20,152,2,1) 75%, rgb(8, 107, 1) 99%);
     padding-top: 10px;
     padding-bottom: 10px;   
 }
@@ -16,19 +18,25 @@ body{
     color: rgb(239, 240, 236);
     font-size: 40px;
     text-align: center;
-    text-shadow: rgb(3, 122, 3) 1px 0 5px;
+    text-shadow: rgb(1, 8, 1) 5px 0 10px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
     text-transform: uppercase;
 }
-#main-about-header{
-color: rgb(0, 4, 7);
-font-size: 23px;
-text-align: center;
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-text-shadow: 2px 2px 20px rgb(46, 16, 218);
-text-transform:uppercase;
+.header-background h2{
+    color: rgb(9, 12, 0);
+    font-size: 30px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    /*Background properties*/
+    background-color: white;
+    margin-inline: 4em;
+    border-radius: 4em;
+
 }
+/*About Header*/
 #about-header{
     color: rgb(0, 6, 12);
     font-size: 23px;
@@ -40,6 +48,7 @@ text-transform:uppercase;
     margin-inline: 12em; 
     border: 5px ridge #a4e481;
     border-radius: 20px;
+    text-transform:uppercase;
 }
 #txt-1{
     color: rgb(88, 79, 79);
@@ -78,10 +87,10 @@ text-transform:uppercase;
     display: block;
 }
 .img-container img{
-    display: inline;
-    margin-inline: 10px;
-    width: 200px;
-    border: 5px ridge #2205a5;       
+    display: flexbox;
+    margin-inline: 10px;  
+    border: 5px ridge #05a532;
+    width: auto;       
 }
 p#txt-1 img{
     float: left;
@@ -102,16 +111,17 @@ p#txt-1 img{
     padding: 10px;
 }
 .dropbtn-1 {
-    display: inline-block;
+    display: flexbox;
     background: linear-gradient(0deg, rgba(6,135,3,1) 18%, rgba(29,177,3,1) 42%, rgba(20,181,4,1) 66%, rgba(121,249,14,1) 99%);
     padding: 10px;   
-    padding-inline: 30px;   
+    padding-inline: 20px;   
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder; 
     color:azure; 
     font-size: 1em;
     border-radius: 10px;
     border: 5px ridge #3da505;
+    text-transform:uppercase;
   }
 /*Dropdown content background*/
 .dropdown-content-1{
@@ -168,6 +178,9 @@ p#txt-1 img{
     text-decoration: none;
     font-weight: bolder;
     font-size: 20px;
+}
+#img{
+    margin-top: 30px;
 }
 /*Tables*/
 #table-1{

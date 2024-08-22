@@ -1,4 +1,4 @@
-# Batchelor-Monkey-Puzzle-Website
+# The Batchelor Monkey Puzzle Website
 This website documents the fascinating journey of a dozen little Monkey Puzzle
 seeds collected from a local New Zealand park, as they progress into seedlings. 
 

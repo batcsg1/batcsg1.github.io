@@ -81,6 +81,26 @@ body{
     font-weight:500;
 }
 /*Headers and text ↑ */
+/*Random fact selector */
+#fact-header{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#fact-box{
+    background: linear-gradient(90deg, rgb(227, 224, 206) 1%, rgb(244, 218, 76) 35%, rgb(244, 231, 3) 57%, rgb(241, 253, 2) 80%);
+    text-align: center;
+    margin-inline: 10em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1em;
+    border-radius: 1em;
+    border: 3px ridge #060804;
+    color: rgb(254, 254, 252);
+    text-shadow: rgb(0, 0, 0) 2px 0 8px;
+}
+
+
 /*Images */
 .img-container{
     text-align: center;

@@ -16,6 +16,46 @@ function displayFact(facts){
 //Call the display fact method
 displayFact(facts);
 
+//AGE BUTTON
+const agebutton = document.getElementById("age-button");
+const agePara = document.getElementById("age-contents");
+const ageMessage = document.getElementById("age-message");
+
+let age = 0;
+ageMessage.hidden = true;
+
+
+const ageButtonHandler = () => {
+  //Hide ageMessage again once button is clicked
+  ageMessage.hidden = true;
+  //Clear the age message each time the button is clicked
+  ageMessage.textContent = null;
+  
+  age++
+  //Age 
+  agePara.textContent = (`Age of Monkey Puzzle: ${age}`);
+  ageHandler()
+}
+function ageHandler(){
+  if (age === 10){
+    /*var node = document.createTextNode(" You reached 10")
+    document.getElementById("age-message").appendChild(node);*/
+    ageMessage.hidden = false;
+    ageMessage.textContent = "A 10 year old Monkey Puzzle will just be above grass height (40cm tall)";
+  }
+  else if (age === 40){
+    ageMessage.hidden = false;
+    ageMessage.textContent = "A 40 year Monkey Puzzle will start to produce either male or female cones, marking the beginning of its reproductive life";
+  }
+}
+
+agebutton.addEventListener("click", ageButtonHandler);
+
+
+
+
+
+
 
 
 

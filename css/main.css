@@ -1,11 +1,43 @@
 /*main.css - Cascading Style Sheets File for index.html
 Created 6th August 2024 */
 body{
-    background-image: linear-gradient(to bottom, #ffffff, #e8eef6, #d1ebda, #8bfcb1);
-    border: 4px ridge #0cd70f;
-    width: 53em;
     margin-left: auto;
     margin-right: auto;
+    max-width: 70em;
+    height: 100vh;
+}
+/*Main header on main page (index.html */
+.h-background{
+    background: url("/img/20240829_140319.jpg") no-repeat center center;
+    background-size: cover;
+    height: 800px;
+    padding-top: 1px;
+}
+.h-background > h1{
+    position: relative;
+    top: 45%;
+    color: rgb(239, 240, 236);
+    font-size: 40px;
+    text-align: center;
+    text-shadow: rgb(1, 8, 1) 5px 0 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.h-background > h2{
+    position: relative;
+    top: 45%;
+    color: rgb(239, 240, 236);
+    font-size: 20px;
+    text-align: center;
+    text-shadow: rgb(1, 8, 1) 5px 0 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:lighter;
+    text-transform: uppercase;
+}
+.h-background > h2:nth-child(3){
+    top: 55%;
+    text-decoration:underline;
 }
 /*Main Header*/
 .header-background{
@@ -23,70 +55,61 @@ body{
     text-transform: uppercase;
 }
 .header-background h2{
-    color: rgb(9, 12, 0);
     font-size: 30px;
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
     text-transform: uppercase;
     /*Background properties*/
-    background-color: white;
-    margin-inline: 4em;
+    margin-inline: 8em;
     border-radius: 4em;
-
+    background: wheat;
 }
 /*About Header*/
 #about-header{
-    color: rgb(0, 6, 12);
-    font-size: 23px;
+    color: rgb(4, 137, 6);
+    font-size: 30px;
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-decoration: dashed;
-    background-image: linear-gradient(to bottom, #eaf6ec, #c4f5cd, #9cf3ac, #6cef8a, #12eb66);
-    padding-block: 10px;
-    margin-inline: 12em; 
-    border: 5px ridge #a4e481;
-    border-radius: 20px;
+    text-decoration: underline;
+    margin-inline: auto;
+    border-radius: 40px;
     text-transform:uppercase;
 }
 #txt-1{
-    color: rgb(88, 79, 79);
-    font-size: 16px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(56, 50, 50);
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
     text-align: left;
-    font-weight:200;
-    background-image: linear-gradient(to bottom, #ffffff, #fbfcff, #f4f9ff, #ecf7ff, #e3f5fd);
-    border: 4px ridge #060804;
-    padding-block: 10px;
-    padding-inline: 20px;
+    font-weight:bold;
+    padding: 1em;
     margin-inline: 3em;
     border-radius: 15px;
 }
-#txt-2{
-    color: rgb(9, 0, 0);
-    font-size: 16px;
+#ching-img-container{
+    background: rgb(247, 247, 165);
+    padding: 3em;
+    border: 4px ridge #000000;
+    text-align: center;
     font-family:Segoe UI;
     text-align: center;
-    background-color: rgb(237, 248, 208);
-    border: 4px ridge #060804;
-    padding-block: 10px;
-    padding-inline: 10px;
+    padding-bottom: 1em;
+    margin-inline: 2em;
+}
+#ching-img-container > a{
+    padding-inline: 1em;
 }
 #copyright{
-    color: rgb(9, 0, 0);
+    background-color: black;
+    color: white;
     font-size: 16px;
     font-family:Segoe UI;
     text-align: center;
     font-weight:500;
+    padding: 3%;
 }
 /*Headers and text ↑ */
 /*Random fact selector */
-#fact-header{
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
 #fact-box{
     background: linear-gradient(90deg, rgb(227, 224, 206) 1%, rgb(244, 218, 76) 35%, rgb(244, 231, 3) 57%, rgb(241, 253, 2) 80%);
     text-align: center;
@@ -95,11 +118,9 @@ body{
     padding: 1em;
     border-radius: 1em;
     border: 3px ridge #060804;
-    color: rgb(254, 254, 252);
-    text-shadow: rgb(0, 0, 0) 2px 0 8px;
+    top: 55%;
+    position: relative;
 }
-
-
 /*Images */
 .img-container{
     text-align: center;
@@ -111,12 +132,10 @@ body{
     border: 5px ridge #05a532;
     width: auto;       
 }
-p#txt-1 img{
+#txt-1 img{
     float: left;
-    margin-right: 10px;
-    margin-bottom: 5px;
-    border: solid black 1px;
-    padding: 2px;
+    padding-inline: 2em;
+    padding-bottom: 2em;
 }
 /* Buttons in about me */
 /*Buttons*/
@@ -175,6 +194,11 @@ p#txt-1 img{
 .button-container{
     text-align: center;
 }
+#fact-header{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
 #age-button{
     background: linear-gradient(0deg, rgba(6,135,3,1) 18%, rgba(29,177,3,1) 42%, rgba(20,181,4,1) 66%, rgba(121,249,14,1) 99%);
     color: white;
@@ -205,7 +229,7 @@ p#txt-1 img{
 }
 /*New Nav menu*/
 #content-background{
-    background-color: rgb(184, 241, 177);
+    background-color: rgb(13, 72, 1);
     padding: 0.3em;
 }
 #content-menu{
@@ -229,6 +253,7 @@ p#txt-1 img{
     display: none;
     position: absolute;
     top: 108%; /* Positions the ul below the li */
+    /*Left at 0 means contents are aligned with left of buttons*/
     left: 0;
     padding-bottom: 2em;
     background-color: white;
@@ -243,25 +268,40 @@ p#txt-1 img{
     padding-right: 2em;
     padding-top: 1em; 
     font-size: 15px;
+    a{
+        text-decoration: none;
+        color: black;
+    }
 }
-#content-menu > li > ul > li > a{
-    text-decoration: none;
-    color: black;
-}
+/*When Contents and Extras are hovered over contents are viewed */
 #content-menu > li:hover > ul{
     display: block;
 }
+/*Button background*/
 #content-menu > button{
     padding: 1em;
     background: linear-gradient(0deg, rgba(6,135,3,1) 18%, rgba(29,177,3,1) 42%, rgba(20,181,4,1) 66%, rgba(121,249,14,1) 99%);
     border: 5px ridge #3da505;
-    border-radius: 10px;    
+    border-radius: 10px;   
+    a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-transform: uppercase;
+        font-size: 19px;
+    } 
 }
-#content-menu > button > a{
-    color: white;
-    text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-transform: uppercase;
-    font-size: 19px;
+/*Content buttons turn yellow when hovered over*/
+#content-menu > li:hover, 
+#content-menu > button:hover{
+    background: linear-gradient(0deg, rgb(228, 240, 6) 18%, rgb(250, 226, 8) 42%, rgb(255, 238, 0) 66%, rgb(242, 237, 103) 99%);
+    transition: all 0.5 ease;
+    color: black;
+    /*About me text turns black*/
+    a{
+        color: #020600;
+    }
 }
+
+
 

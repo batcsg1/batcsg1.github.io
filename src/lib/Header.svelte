@@ -23,7 +23,7 @@
     }
     img{
         height: 100px;
-        padding-right: 1.8em;
+        padding-right: 3em;
         
     }
     h1{
@@ -32,6 +32,7 @@
         color: white;
         text-shadow: 1px 1.5px 8px rgb(1, 17, 1);
         text-decoration: underline;
+        letter-spacing: 0.2em;
     }
     header, ul{
         display: flex;
@@ -50,7 +51,9 @@
         border-radius: 0.3em;
         color: white;
         font-size: smaller;
+        letter-spacing: 0.2em;
     }
+
     li:hover{
         background-color: white;
         color: #333;
@@ -59,5 +62,6 @@
         display: flex;
         flex-direction: column;
         align-self: center; 
+        
     }
 </style>

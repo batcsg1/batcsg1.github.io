@@ -5,5 +5,7 @@
 <Header></Header>
 
 <style>
-
+    :global(*){
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
 </style>
